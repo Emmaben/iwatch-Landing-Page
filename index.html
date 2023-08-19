@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">iWatch</a>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+
+        <div class="content">
+            <div class="contentBx">
+                <h2>Furture on<br>your Waist</h2>
+                <p>The Apple Watch, often referred to simply as the iWatch, 
+                    is a popular and innovative wearable device developed by 
+                    Apple Inc. It seamlessly integrates into users' lives by 
+                    combining features of a fitness tracker, communication device, 
+                    and personal assistant all in one. With its sleek design and 
+                    advanced technology, the Apple Watch allows users to monitor 
+                    their health metrics, receive notifications, make calls, 
+                    send messages, and even interact with various apps, all from their wrist.
+                </p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="imgBx">
+                <img src="watch.png" alt="">
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript">
+        function toggle(){
+            const toggle = document.querySelector(".toggle");
+            const banner = document.querySelector(".banner");
+            toggle.classList.toggle("active")
+            banner.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
